@@ -1,0 +1,11 @@
+---
+title: "Function Overview"
+output: NULL
+---
+
+# `summarize_mtcars()`
+Compute mean, median, and standard deviation for every numeric column in `mtcars`, optionally grouped by a factor.
+
+```r
+library(mtcarstools)
+summarize_mtcars("cyl")

@@ -1,0 +1,24 @@
+---
+title: "Introduction to mtcarstools"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to mtcarstools}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Overview
+
+**mtcarstools** is a beginner-friendly toolkit for summarizing, plotting, and modeling the classic `mtcars` dataset.
+
+## Installation
+
+```r
+# install remotes if you need it
+install.packages("remotes")
+
+# install mtcarstools from GitHub
+remotes::install_github("YOUR_USERNAME/mtcarstools")
+
+# load the package
+library(mtcarstools)
